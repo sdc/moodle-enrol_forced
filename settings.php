@@ -1,5 +1,4 @@
 <?php
-
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -22,7 +21,7 @@
  *
  * @package    enrol
  * @subpackage forced
- * @copyright  2011 Paul Vaughan, South Devon College
+ * @copyright  2014 Paul Vaughan, South Devon College
  * @author     Paul Vaughan - based on code by Petr Skoda and others
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -31,12 +30,10 @@ defined('MOODLE_INTERNAL') || die();
 
 if ($ADMIN->fulltree) {
 
-    // heading
     $settings->add(new admin_setting_heading('enrol_forced_settings',
         '',
         get_string('pluginname_desc', 'enrol_forced')));
 
-    //
     $settings->add(new admin_setting_configtext('enrol_forced_course_ids',
         get_string('ids', 'enrol_forced'),
         get_string('ids_desc', 'enrol_forced'), ''));

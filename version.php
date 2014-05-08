@@ -1,5 +1,4 @@
 <?php
-
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -21,12 +20,12 @@
  * Version specification.
  *
  * @package    enrol
- * @subpackage restxml
- * @copyright  2011 Paul Vaughan, South Devon College
+ * @subpackage forced
+ * @copyright  2014 Paul Vaughan, South Devon College
  * @author     Paul Vaughan - based on code by Petr Skoda and others
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version = 2011103105;
+$plugin->version = 2014050800;

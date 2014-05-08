@@ -1,5 +1,4 @@
 <?php
-
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -22,13 +21,13 @@
  *
  * @package    enrol
  * @subpackage forced
- * @copyright  2011 Paul Vaughan, South Devon College
+ * @copyright  2014 Paul Vaughan, South Devon College
  * @author     Paul Vaughan - based on code by Petr Skoda and others
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['pluginname'] = 'Forced Enrolment';
-$string['pluginname_desc'] = 'Automatically enrols <em>all users</em> onto one or more courses.';
+$string['pluginname']       = 'Forced Enrolment';
+$string['pluginname_desc']  = 'Automatically enrols <em>all users</em> onto one or more courses.';
 
-$string['ids'] = 'Course ID numbers';
-$string['ids_desc'] = 'Separate ID numbers with commas, e.g: 1,4,9,42,1984,2001<br /><br />Course ID numbers can be taken from a course\'s URL, e.g: /course/view.php?id=2 is course ID 2.';
+$string['ids']              = 'Course ID numbers';
+$string['ids_desc']         = 'Separate ID numbers with commas, e.g: 1,4,9,42,1984,2001<br><br>Course ID numbers can be taken from a course\'s URL, e.g: /course/view.php?id=2 is course ID 2.';
